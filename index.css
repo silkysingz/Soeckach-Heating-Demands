@@ -1,0 +1,40 @@
+#mapid { 
+     height: 100%;
+       }
+	   
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    }
+	
+#map-container {
+    flex: 1;
+    height: 85vh;
+    }
+	
+#chart-container {
+    flex: 0.5;
+    flex-direction: column;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+#BuildingTy {
+    flex: 0.25;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+        
+#Footprint {
+    flex: 0.25;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
